@@ -9,20 +9,24 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <a href="/"
-            ><img src="./img/logo.svg" alt="logo moderne bäckerei"
-          /></a>
-          <ul>
-            <li>
-              <a class="link" href="#traditions-section">Unsere Traditionen</a>
-            </li>
-            <li><a class="link" href="#chefs-section">Köche</a></li>
-            <li><a class="link" href="#format-section">Formate</a></li>
-            <li><a class="link" href="#contact-section">Kontakte</a></li>
-          </ul>
-        </nav>
-        <button class="button" type="button">Einen Anruf bestellen</button>
+        <div class="header-conrainer">
+          <nav class="header-nav">
+            <a href="/"
+              ><img src="./img/logo.svg" alt="logo moderne bäckerei"
+            /></a>
+            <ul class="header-menu">
+              <li>
+                <a class="link" href="#traditions-section"
+                  >Unsere Traditionen</a
+                >
+              </li>
+              <li><a class="link" href="#chefs-section">Köche</a></li>
+              <li><a class="link" href="#format-section">Formate</a></li>
+              <li><a class="link" href="#contact-section">Kontakte</a></li>
+            </ul>
+          </nav>
+          <button class="button" type="button">Einen Anruf bestellen</button>
+        </div>
       </div>
     </header>
     <main>
@@ -33,7 +37,7 @@
           </h1>
         </div>
       </section>
-      <section>
+      <section class="advantages-section">
         <div class="container">
           <h2 class="visually-hidden">Unsere Vorteile</h2>
           <ul class="advantages-list">
@@ -45,25 +49,34 @@
       </section>
       <section class="traditions-section section" id="traditions-section">
         <div class="container">
-          <h2 class="traditions-title section-title">
-            Ein neues Format der Traditionen
-          </h2>
-          <p class="traditions-text">
-            <span class="brand uppercase">shop bakery</span> — Das ist eine
-            Bäckerei, die das Beste genommen hat, und Der Geschmack des
-            traditionellen Backens und die Natürlichkeit der Zutaten bleiben
-            erhalten.
-          </p>
-          <p class="traditions-text">
-            Wir arbeiten wie die bekanntesten Ketten –
-            <span class="brand">5 Minuten und die Bestellung ist fertig.</span>
-            Und auch in unseren Bäckereien stilvolles Design und hochwertiger
-            Service!
-          </p>
-          <img
-            src="./img/baker-man.jpg"
-            alt="baker man looks on the broad and smiling"
-          />
+          <div class="traditions-container">
+            <div class="traditions-content">
+              <h2 class="traditions-title section-title">
+                Ein neues Format der Traditionen
+              </h2>
+              <p class="traditions-text">
+                <span class="brand uppercase">shop bakery</span> — Das ist eine
+                Bäckerei, die das Beste genommen hat, und Der Geschmack des
+                traditionellen Backens und die Natürlichkeit der Zutaten bleiben
+                erhalten.
+              </p>
+              <p class="traditions-text limited">
+                Wir arbeiten wie die bekanntesten Ketten –
+                <span class="brand"
+                  >5 Minuten und die Bestellung ist fertig.</span
+                >
+
+                Und auch in unseren Bäckereien stilvolles Design und
+                hochwertiger Service!
+              </p>
+            </div>
+            <div>
+              <img
+                src="./img/baker-man.jpg"
+                alt="baker man looks on the broad and smiling"
+              />
+            </div>
+          </div>
         </div>
       </section>
       <section class="chefs-title section" id="chefs-section">
@@ -103,9 +116,9 @@
       <section class="section" id="format-section">
         <div class="container">
           <h2 class="formats-title section-title">Format</h2>
-          <ul>
-            <li>
-              <article>
+          <ul class="formats-list">
+            <li class="formats-item">
+              <article class="format-card">
                 <h3 class="format-title" lang="en">Walrus</h3>
                 <div class="format-text">
                   <p>Fläche: bis zu 120 m2</p>
@@ -117,8 +130,8 @@
                 </div>
               </article>
             </li>
-            <li>
-              <article>
+            <li class="formats-item">
+              <article class="format-card">
                 <h3 class="format-title" lang="en">Horseshoe</h3>
                 <div class="format-text">
                   <p>Fläche: bis zu 120 m2</p>
@@ -130,8 +143,8 @@
                 </div>
               </article>
             </li>
-            <li>
-              <article>
+            <li class="formats-item">
+              <article class="format-card">
                 <h3 class="format-title" lang="en">Handlebar</h3>
                 <div class="format-text">
                   <p>Fläche: bis zu 120 m2</p>
