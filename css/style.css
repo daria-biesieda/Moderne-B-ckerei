@@ -283,6 +283,17 @@ ul {
   font-weight: 300;
 }
 
+/*Carousel*/
+.carousel-button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.carousel-arrow {
+  fill: var(--color-primary-dark);
+}
+
 /*Contact section*/
 .contact-title {
   margin-bottom: 16px;
@@ -298,6 +309,10 @@ ul {
 
 .address-link:hover {
   color: var(--color-brand-normal);
+}
+
+.address-icon {
+  fill: var(--color-primary-light);
 }
 
 .address.copyright {
